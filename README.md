@@ -4,7 +4,7 @@ Website: [Algo Tours](https://aardg10.github.io/IP-Project/)<br>
 This Project Encompasses Enhancing Web Development Skills by Creating a Basic Website using HTML, CSS and JS. <br>
 The Project will also enhance Team Working Skills.<br>
 Tasks:-<br>
-[x] Create Index Page <br>
-[x] Create Tours Page <br>
-[ ] Create Forms Page <br>
-[ ] Create About Us Page <br>
+- [x] Create Index Page <br>
+- [x] Create Tours Page <br>
+- [ ] Create Forms Page <br>
+- [ ] Create About Us Page <br>
