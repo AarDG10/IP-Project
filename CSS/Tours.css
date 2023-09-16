@@ -1,0 +1,46 @@
+body{
+    background-image: url(Images/Home3-bg.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main{
+    padding-left: 50px;
+    width: auto;
+    height:350px;
+    display:flex;
+    flex-direction:row;
+    text-align: center;
+}
+.Cards{
+    display: flex;
+    flex-direction: column;
+}
+.tr1{
+    width:300px;
+    height:350px;
+    border:2px solid white;
+    margin:20px;
+    display: flex; 
+    flex-direction: column;
+    border-radius: 3px;
+}
+.card-data{
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
+.card-txt{
+    margin-top:5px;
+    color:white;
+    font-family: sans-serif;
+    text-align: center;
+}
+footer{
+    color:white;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+ }
