@@ -8,3 +8,5 @@ The Project will also enhance Team Working Skills.<br> <br>
 - [x] Create Tours Page <br>
 - [ ] Create Forms Page <br>
 - [ ] Create About Us Page <br>
+- [ ] Add Media Queries <br>
+- [ ] Javascript Needs to be Added<br>
