@@ -3,15 +3,16 @@
 
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="CSS/Contact.css">
     <link rel="stylesheet" href="CSS/Index.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Algo Tours</title>
 </head>
 
 <body>
-    <header
-        style="color:white; text-align: center; font-family: sans-serif; font-size: 30px;text-shadow: 3px 3px grey;">
-        Contact Us </header>
+    <header style="color:white; text-align: center; font-family: sans-serif; font-size: 30px;text-shadow: 3px 3px grey;">
+        Contact Us
+    </header>
     <nav style="size:40px; float: right; margin-right:5%">
         <a href="index.html" style="text-decoration: none; color:white; margin-right: 5px;">HOME</a>
         <text style="color:white; margin-right: 5px;">|</text>
@@ -20,11 +21,26 @@
         <a href="contact.html" style="text-decoration: none; color:white; margin-right: 5px;">CONTACT</a>
         <text style="color:white; margin-right: 5px;">|</text>
         <a href="" style="text-decoration: none; color:white; margin-right: 5px;">ABOUT</a>
-    </nav> <br><br><br>
-   <footer>A Venture By <a href="https://github.com/AarDG10" style="color:aqua;" target="_blank">Aarol</a> | <a
-                href="https://github.com/Leebro10" style="color:aqua;" target="_blank">Leander</a> | <a
-                href="https://github.com/XGavinp" style="color:aqua;" target="_blank">Gavin</a></footer>
-    </div>
+    </nav>
+    <br><br><br>
+
+    <form action="contact.php" method="POST" class="contact-form">
+        <label for="name" style="color: white;">Name:</label>
+        <input type="text" id="name" name="name" required>
+    
+        <label for="email" style="color: white;">Email:</label>
+        <input type="email" id="email" name="email" required>
+    
+        <label for="message" style="color: white;">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+    
+        <input type="submit" value="Submit">
+    </form>
+    
+
+    <footer>A Venture By <a href="https://github.com/AarDG10" style="color:aqua;" target="_blank">Aarol</a> | <a
+            href="https://github.com/Leebro10" style="color:aqua;" target="_blank">Leander</a> | <a
+            href="https://github.com/XGavinp" style="color:aqua;" target="_blank">Gavin</a></footer>
 </body>
 
 </html>
