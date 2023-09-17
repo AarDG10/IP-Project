@@ -28,3 +28,5 @@ function populateCountries() {
       locationSelect.appendChild(option);
     }
   }
+
+  populateCountries();
