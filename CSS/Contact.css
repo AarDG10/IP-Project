@@ -3,9 +3,11 @@ form {
   margin: 0 auto;
 }
 
-label, input, textarea {
+label, input,select, textarea {
   display: block;
   margin-bottom: 10px;
+  padding: 5px;
+  width: 400px;
 }
 
 input[type="text"],
@@ -24,6 +26,7 @@ input[type="submit"] {
   padding: 10px;
   border: none;
   cursor: pointer;
+  position: relative;
 }
 
 .contact-form label {
@@ -50,4 +53,19 @@ label {
   100% {
     transform: translate(5px, 5px);
   }
+}
+
+.button-container {
+  display: flex;
+  justify-content: center; /* Align button to the center horizontally */
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: #1b34ec;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: relative; /* To position the button */
 }

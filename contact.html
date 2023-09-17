@@ -35,7 +35,7 @@
         <input type="date" id="dob" name="dob" required>
 
         <label for="gender" style="color: white;">Gender:</label>
-        <select type="text" id="gender" name="gender" required>
+        <select id="gender" name="gender" required>
             <option value="">Select</option>
             <option value="male">Male</option>
             <option value="female">Female</option>
@@ -53,7 +53,9 @@
         <label for="message" style="color: white;">Message:</label>
         <textarea id="message" name="message" required></textarea>
     
-        <input type="submit" value="Submit">
+        <div class="button-container">
+            <button type="submit" id="submitButton">Submit</button>
+        </div>
     </form>
 
  <script src="script.js"></script>
