@@ -1,0 +1,28 @@
+body{
+    background-image: url(Images/Home3-bg.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.abt{
+    color:white;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: medium;
+}
+.main{
+    padding-left: 50px;
+    width: auto;
+    height:350px;
+    display:flex;
+    flex-direction:row;
+    text-align: center;
+}
+.tr1{
+    width:300px;
+    height:350px;
+    border:2px solid white;
+    margin:20px;
+    display: flex; 
+    flex-direction: column;
+    border-radius: 3px;
+}
