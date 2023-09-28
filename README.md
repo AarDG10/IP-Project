@@ -9,3 +9,8 @@ The Project will also enhance Team Working Skills.<br> <br>
 - [x] Create Forms Page <br>
 - [x] Create About Us Page <br>
 - [x] Success!!!
+
+Clonning to Virtual Machine <br>
+Step 1:- Open Terminal <br>
+Step 2:- Type git clone <br>
+
