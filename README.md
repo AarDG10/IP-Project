@@ -13,5 +13,5 @@ The Project will also enhance Team Working Skills.<br> <br>
 <br>Clonning to Virtual Machine<br>
 Step 1:- Open Terminal <br>
 Step 2:- Type git clone https://github.com/AarDG10/IP-Project <br>
-Step 3:- Then commit the necessary changes <br>
+<br>Step 3:- Then commit the necessary changes<br>
 
