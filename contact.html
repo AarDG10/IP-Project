@@ -54,12 +54,18 @@
         <textarea id="message" name="message" required></textarea>
     
         <div class="button-container">
-            <button type="submit" id="submitButton">Submit</button>
+            <button type="submit" id="submitButton" onclick="danke()">Submit</button>
         </div>
     </form>
 
  <script src="script.js"></script>
-    
+    <script type="text/javascript">
+        function danke(){
+            var nom=document.getElementById('name').value;
+            alert('Thank You For Your Patience '+ nom);
+        }
+
+    </script>
 
     <footer style=" position: fixed; bottom: 0;margin-left:40%; margin-bottom: 5px;">A Venture By <a href="https://github.com/AarDG10" style="color:aqua;" target="_blank">Aarol</a> | <a
             href="https://github.com/Leebro10" style="color:aqua;" target="_blank">Leander</a> | <a
